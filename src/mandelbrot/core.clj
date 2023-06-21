@@ -48,7 +48,7 @@
 
 ; After calling (-main), wait for a few seconds.
 
-(defn -main [& args]
+(defn -main [& _]
   (doto (mandelbrot-window)
     .pack
     (.setVisible true)))
